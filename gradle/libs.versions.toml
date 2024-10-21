@@ -1,0 +1,63 @@
+[versions]
+agp = "8.6.0"
+androidMapsUtils = "2.2.5"
+comGoogleMapsGoogleMapsServices = "2.2.0"
+googleGoogleMapsServices = "0.1.3"
+googleGoogleMapsServicesVersion = "0.17.0"
+googleMapsServices = "0.24.0"
+googleMapsServicesVersion = "0.18.0"
+julToSlf4j = "1.7.36"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.6.1"
+activityCompose = "1.9.2"
+composeBom = "2024.04.01"
+googleAndroidLibrariesMapsplatformSecretsGradlePlugin = "2.0.1"
+places = "4.0.0"
+playServicesMaps = "18.1.0"
+appcompat = "1.7.0"
+constraintlayout = "2.1.4"
+playServicesMapsVersion = "18.0.0"
+slf4jApi = "1.7.36"
+slf4jSimple = "1.7.25"
+
+[libraries]
+android-maps-utils = { module = "com.google.maps.android:android-maps-utils", version.ref = "androidMapsUtils" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+google-maps-services = { module = "com.google.maps:google-maps-services", version.ref = "googleMapsServices" }
+google-maps-services-v013 = { module = "com.google.maps:google-maps-services", version.ref = "googleGoogleMapsServices" }
+google-maps-services-v0170 = { module = "com.google.maps:google-maps-services", version.ref = "googleGoogleMapsServicesVersion" }
+google-maps-services-v0180 = { module = "com.google.maps:google-maps-services", version.ref = "googleMapsServicesVersion" }
+google-maps-services-v220 = { module = "com.google.maps:google-maps-services", version.ref = "comGoogleMapsGoogleMapsServices" }
+jul-to-slf4j = { module = "org.slf4j:jul-to-slf4j", version.ref = "julToSlf4j" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+places = { module = "com.google.android.libraries.places:places", version.ref = "places" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+play-services-maps-v1800 = { module = "com.google.android.gms:play-services-maps", version.ref = "playServicesMapsVersion" }
+slf4j-android = { module = "org.slf4j:slf4j-android", version.ref = "julToSlf4j" }
+slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4jApi" }
+slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "julToSlf4j" }
+slf4j-simple-v1725 = { module = "org.slf4j:slf4j-simple", version.ref = "slf4jSimple" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-android-libraries-mapsplatform-secrets-gradle-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "googleAndroidLibrariesMapsplatformSecretsGradlePlugin" }
+
