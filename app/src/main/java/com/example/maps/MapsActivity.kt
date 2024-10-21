@@ -57,7 +57,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
 
         // Inicializa la API de Places
-        Places.initialize(applicationContext, "TU_API_KEY_AQUI")
+        Places.initialize(applicationContext, "AQUI VA TU API KEY")
         placesClient = Places.createClient(this)
 
         // Botón para cambiar el tipo de mapa
@@ -136,10 +136,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     }
 
     private fun searchNearbyPlaces() {
-        if (ContextCompat.checkSelfPermission(
-                this, Manifest.permission.ACCESS_FINE_LOCATION
-            ) == PackageManager.PERMISSION_GRANTED
-        ) {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             val placeFields = listOf(Place.Field.NAME, Place.Field.LAT_LNG)
             val request = FindCurrentPlaceRequest.newInstance(placeFields)
 
@@ -157,19 +154,23 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 .addOnFailureListener { exception ->
                     if (exception is ApiException) {
                         Log.e("PlacesAPI", "Place not found: ${exception.statusCode}")
+                    } else {
+                        Log.e("PlacesAPI", "Error finding places: ${exception.message}")
                     }
                 }
+        } else {
+            Toast.makeText(this, "Permiso de ubicación no concedido", Toast.LENGTH_SHORT).show()
         }
     }
 
     private fun drawRoute(origin: LatLng, destination: LatLng) {
-        val context = GeoApiContext.Builder()
-            .apiKey("TU_API_KEY_AQUI")
+        val geoApiContext = GeoApiContext.Builder()
+            .apiKey("AQUI VA TU API KEY") // Asegúrate de que esta clave es válida y tiene permisos para Directions API
             .build()
 
         Thread {
             try {
-                val result = DirectionsApi.newRequest(context)
+                val result: DirectionsResult = DirectionsApi.newRequest(geoApiContext)
                     .origin(com.google.maps.model.LatLng(origin.latitude, origin.longitude))
                     .destination(com.google.maps.model.LatLng(destination.latitude, destination.longitude))
                     .mode(TravelMode.DRIVING)
@@ -182,6 +183,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                     }
                 }
             } catch (e: Exception) {
+                Log.e("DrawRoute", "Error drawing route: ${e.message}")
                 e.printStackTrace()
             }
         }.start()

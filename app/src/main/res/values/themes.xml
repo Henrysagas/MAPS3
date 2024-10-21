@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.MAPS" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.MAPS" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Definir atributos personalizados si es necesario -->
+    </style>
 </resources>
