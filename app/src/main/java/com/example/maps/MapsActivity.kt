@@ -7,6 +7,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.location.Geocoder
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -17,6 +18,7 @@ import com.google.android.libraries.places.api.model.Place
 import com.google.android.libraries.places.api.net.FindCurrentPlaceRequest
 import com.google.android.libraries.places.api.net.PlacesClient
 import android.util.Log
+import android.widget.EditText
 
 import com.google.maps.DirectionsApi
 import com.google.maps.GeoApiContext
@@ -39,6 +41,7 @@ import com.google.android.gms.common.api.Status;
 
 import com.google.android.libraries.places.widget.AutocompleteSupportFragment;
 import com.google.android.libraries.places.widget.listener.PlaceSelectionListener;
+import java.io.IOException
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
@@ -57,13 +60,19 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
 
         // Inicializa la API de Places
-        Places.initialize(applicationContext, "AQUI VA TU API KEY")
+        Places.initialize(applicationContext, "AIzaSyAjpLZpN6ESH_hpllOJn4uBaEsWlZxvVXQ")
         placesClient = Places.createClient(this)
 
         // Botón para cambiar el tipo de mapa
         val btnChangeMapType = findViewById<Button>(R.id.btnChangeMapType)
         btnChangeMapType.setOnClickListener {
             changeMapType()
+        }
+
+        // Boton para buscar en el mapa
+        val btnSearch = findViewById<Button>(R.id.btnSearch)
+        btnSearch.setOnClickListener {
+            searchLocation()
         }
     }
 
@@ -165,7 +174,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private fun drawRoute(origin: LatLng, destination: LatLng) {
         val geoApiContext = GeoApiContext.Builder()
-            .apiKey("AQUI VA TU API KEY") // Asegúrate de que esta clave es válida y tiene permisos para Directions API
+            .apiKey("AIzaSyAjpLZpN6ESH_hpllOJn4uBaEsWlZxvVXQ") // Asegúrate de que esta clave es válida y tiene permisos para Directions API
             .build()
 
         Thread {
@@ -188,4 +197,32 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             }
         }.start()
     }
+
+    private fun searchLocation() {
+        val searchText = findViewById<EditText>(R.id.editTextSearch).text.toString()
+        if (searchText.isNotEmpty()) {
+            val geocoder = Geocoder(this)
+            try {
+                // Busca la ubicación usando el texto ingresado
+                val addresses = geocoder.getFromLocationName(searchText, 1)
+                if (addresses != null && addresses.isNotEmpty()) {
+                    val address = addresses[0]
+                    val location = LatLng(address.latitude, address.longitude)
+
+                    // Mover la cámara a la ubicación encontrada y agregar un marcador
+                    mMap.clear() // Limpiar los marcadores anteriores
+                    mMap.addMarker(MarkerOptions().position(location).title(address.getAddressLine(0)))
+                    mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 15f))
+                } else {
+                    Toast.makeText(this, "No se encontró el lugar", Toast.LENGTH_SHORT).show()
+                }
+            } catch (e: IOException) {
+                e.printStackTrace()
+                Toast.makeText(this, "Error al buscar la ubicación", Toast.LENGTH_SHORT).show()
+            }
+        } else {
+            Toast.makeText(this, "Por favor, ingresa un nombre de lugar", Toast.LENGTH_SHORT).show()
+        }
+    }
+
 }
