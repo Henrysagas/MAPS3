@@ -60,7 +60,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
 
         // Inicializa la API de Places
-        Places.initialize(applicationContext, "AIzaSyAjpLZpN6ESH_hpllOJn4uBaEsWlZxvVXQ")
+        Places.initialize(applicationContext, "APKI_KEY")
         placesClient = Places.createClient(this)
 
         // Botón para cambiar el tipo de mapa
@@ -174,7 +174,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private fun drawRoute(origin: LatLng, destination: LatLng) {
         val geoApiContext = GeoApiContext.Builder()
-            .apiKey("AIzaSyAjpLZpN6ESH_hpllOJn4uBaEsWlZxvVXQ") // Asegúrate de que esta clave es válida y tiene permisos para Directions API
+            .apiKey("API_KEY") // Asegúrate de que esta clave es válida y tiene permisos para Directions API
             .build()
 
         Thread {
