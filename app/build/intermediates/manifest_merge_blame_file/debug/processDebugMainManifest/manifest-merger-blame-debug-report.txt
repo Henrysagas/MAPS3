@@ -1,0 +1,269 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.maps"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:5:5-6:66
+12-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:6:9-63
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:7:5-8:68
+13-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:8:9-65
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+14-->[com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:11:5-76
+14-->[com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:11:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+25    </queries>
+26
+27    <permission
+27-->[androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+28        android:name="com.example.maps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.example.maps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:9:5-51:19
+34        android:allowBackup="true"
+34-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:10:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:11:9-65
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:12:9-54
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:13:9-43
+41        android:label="@string/app_name"
+41-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:14:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:15:9-54
+43        android:supportsRtl="true"
+43-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:16:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.MAPS" >
+45-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:17:9-42
+46
+47        <!--
+48             TODO: Before you run your application, you need a Google Maps API key.
+49
+50             To get one, follow the directions here:
+51
+52                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+53
+54             Once you have your API key (it starts with "AIza"), define a new property in your
+55             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+56             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+57        -->
+58        <meta-data
+58-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:32:9-34:71
+59            android:name="com.google.android.geo.API_KEY"
+59-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:33:13-58
+60            android:value="AIzaSyAjpLZpN6ESH_hpllOJn4uBaEsWlZxvVXQ" />
+60-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:34:13-68
+61
+62        <activity
+62-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:36:9-40:48
+63            android:name="com.example.maps.MapsActivity"
+63-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:37:13-41
+64            android:exported="false"
+64-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:38:13-37
+65            android:label="@string/title_activity_maps"
+65-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:39:13-56
+66            android:theme="@style/Theme.MAPS" />
+66-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:40:13-46
+67        <activity
+67-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:42:9-50:20
+68            android:name="com.example.maps.MainActivity"
+68-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:43:13-41
+69            android:exported="true"
+69-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:44:13-36
+70            android:theme="@style/Theme.MAPS" >
+70-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:45:13-46
+71            <intent-filter>
+71-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:46:13-49:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:47:17-69
+72-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:47:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:48:17-77
+74-->C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:48:27-74
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->[com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:15:9-21:20
+78            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+78-->[com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:16:13-91
+79            android:exported="false"
+79-->[com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:17:13-37
+80            android:label="@string/places_autocomplete_label"
+80-->[com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:18:13-62
+81            android:theme="@style/PlacesAutocompleteOverlay"
+81-->[com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:19:13-61
+82            android:windowSoftInputMode="adjustResize" >
+82-->[com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:20:13-55
+83        </activity> <!-- Needs to be explicitly declared on P+ -->
+84        <uses-library
+84-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+85            android:name="org.apache.http.legacy"
+85-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+86            android:required="false" />
+86-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+92        <activity
+92-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\8e2c128e0a6719d488a916d6f0e7bf27\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+93            android:name="androidx.compose.ui.tooling.PreviewActivity"
+93-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\8e2c128e0a6719d488a916d6f0e7bf27\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+94            android:exported="true" />
+94-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\8e2c128e0a6719d488a916d6f0e7bf27\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+95        <activity
+95-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\af1c3811f0984f525e2ad5764f490bde\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:23:9-25:39
+96            android:name="androidx.activity.ComponentActivity"
+96-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\af1c3811f0984f525e2ad5764f490bde\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:24:13-63
+97            android:exported="true" />
+97-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\af1c3811f0984f525e2ad5764f490bde\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:25:13-36
+98
+99        <provider
+99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+101            android:authorities="com.example.maps.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+109            <meta-data
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+111                android:value="androidx.startup" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+112        </provider>
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0c6ab03b2ee9f4a6eb63b9c28c4e54bc\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0c6ab03b2ee9f4a6eb63b9c28c4e54bc\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0c6ab03b2ee9f4a6eb63b9c28c4e54bc\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+117
+118        <service
+118-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:26:9-32:19
+119            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+119-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:27:13-103
+120            android:exported="false" >
+120-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:28:13-37
+121            <meta-data
+121-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:29:13-31:39
+122                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+122-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:30:17-94
+123                android:value="cct" />
+123-->[com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:31:17-36
+124        </service>
+125        <service
+125-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:24:9-28:19
+126            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+126-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:25:13-117
+127            android:exported="false"
+127-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:26:13-37
+128            android:permission="android.permission.BIND_JOB_SERVICE" >
+128-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:27:13-69
+129        </service>
+130
+131        <receiver
+131-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:30:9-32:40
+132            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+132-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:31:13-132
+133            android:exported="false" />
+133-->[com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:32:13-37
+134        <receiver
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+135            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+136            android:directBootAware="false"
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+137            android:enabled="true"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+138            android:exported="true"
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+139            android:permission="android.permission.DUMP" >
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+141                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+144                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+147                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+150                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+151            </intent-filter>
+152        </receiver>
+153    </application>
+154
+155</manifest>

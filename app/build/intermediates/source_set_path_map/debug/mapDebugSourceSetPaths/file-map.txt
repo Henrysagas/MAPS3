@@ -1,0 +1,60 @@
+com.example.maps.app-play-services-basement-18.4.0-0 C:\Users\YOLANDA\.gradle\caches\transforms-4\0c6ab03b2ee9f4a6eb63b9c28c4e54bc\transformed\play-services-basement-18.4.0\res
+com.example.maps.app-ui-util-release-1 C:\Users\YOLANDA\.gradle\caches\transforms-4\17082a407beeb742be8ad86db9e5c61d\transformed\ui-util-release\res
+com.example.maps.app-activity-1.9.2-2 C:\Users\YOLANDA\.gradle\caches\transforms-4\172298b812affe8aaf26ef77b7207e89\transformed\activity-1.9.2\res
+com.example.maps.app-material-ripple-release-3 C:\Users\YOLANDA\.gradle\caches\transforms-4\19f06511b663a4b77e6d3aa08ffa86e4\transformed\material-ripple-release\res
+com.example.maps.app-play-services-base-18.5.0-4 C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\res
+com.example.maps.app-android-maps-utils-2.2.5-5 C:\Users\YOLANDA\.gradle\caches\transforms-4\2642db1b2738d35ed2c86649c0237ebc\transformed\android-maps-utils-2.2.5\res
+com.example.maps.app-lifecycle-viewmodel-savedstate-2.6.2-6 C:\Users\YOLANDA\.gradle\caches\transforms-4\2c9f0216ad13c63e9c8fca1c4f68c221\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.maps.app-ui-text-release-7 C:\Users\YOLANDA\.gradle\caches\transforms-4\30c099aa66ce60d94c1c09aed431c738\transformed\ui-text-release\res
+com.example.maps.app-savedstate-1.2.1-8 C:\Users\YOLANDA\.gradle\caches\transforms-4\360a6245f1b3ecebea06026a64efa581\transformed\savedstate-1.2.1\res
+com.example.maps.app-material3-release-9 C:\Users\YOLANDA\.gradle\caches\transforms-4\363204a7e4ff76092136e3e6a5fee3b8\transformed\material3-release\res
+com.example.maps.app-cardview-1.0.0-10 C:\Users\YOLANDA\.gradle\caches\transforms-4\38d713ea5bda6127d57b5477a7324729\transformed\cardview-1.0.0\res
+com.example.maps.app-material-icons-core-release-11 C:\Users\YOLANDA\.gradle\caches\transforms-4\3c5cad65d96ecc9d9ce2bb8fc39f9a2c\transformed\material-icons-core-release\res
+com.example.maps.app-lifecycle-runtime-ktx-2.6.2-12 C:\Users\YOLANDA\.gradle\caches\transforms-4\454a5ab03589c6d458d43f89bd0f9aff\transformed\lifecycle-runtime-ktx-2.6.2\res
+com.example.maps.app-places-4.0.0-13 C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\res
+com.example.maps.app-runtime-saveable-release-14 C:\Users\YOLANDA\.gradle\caches\transforms-4\4963e8e05b777864ac718921359737ee\transformed\runtime-saveable-release\res
+com.example.maps.app-lifecycle-livedata-core-2.6.2-15 C:\Users\YOLANDA\.gradle\caches\transforms-4\51dd0ae759e0388471c5ea209cbf8bda\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.maps.app-activity-compose-1.9.2-16 C:\Users\YOLANDA\.gradle\caches\transforms-4\57d2e4f85e1277f2b9d341a25e5a191e\transformed\activity-compose-1.9.2\res
+com.example.maps.app-profileinstaller-1.3.1-17 C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\res
+com.example.maps.app-appcompat-1.7.0-18 C:\Users\YOLANDA\.gradle\caches\transforms-4\5fc2039ab4a6dd019954528a9236b4db\transformed\appcompat-1.7.0\res
+com.example.maps.app-animation-core-release-19 C:\Users\YOLANDA\.gradle\caches\transforms-4\712f2fc48d7208572b69cee119d0ec6a\transformed\animation-core-release\res
+com.example.maps.app-ui-release-20 C:\Users\YOLANDA\.gradle\caches\transforms-4\7132419072659c8734bf5e8abd76a98d\transformed\ui-release\res
+com.example.maps.app-ui-tooling-preview-release-21 C:\Users\YOLANDA\.gradle\caches\transforms-4\7829845bd073f986f5860206f757e770\transformed\ui-tooling-preview-release\res
+com.example.maps.app-startup-runtime-1.1.1-22 C:\Users\YOLANDA\.gradle\caches\transforms-4\7cd1547642a64556c9ce6c51315e0dab\transformed\startup-runtime-1.1.1\res
+com.example.maps.app-savedstate-ktx-1.2.1-23 C:\Users\YOLANDA\.gradle\caches\transforms-4\7dffa33936efad0e0521ce9583dbebb8\transformed\savedstate-ktx-1.2.1\res
+com.example.maps.app-coordinatorlayout-1.0.0-24 C:\Users\YOLANDA\.gradle\caches\transforms-4\7f10c0259e1e30542df0d8df8421c63f\transformed\coordinatorlayout-1.0.0\res
+com.example.maps.app-emoji2-views-helper-1.3.0-25 C:\Users\YOLANDA\.gradle\caches\transforms-4\814ce9efa9a2813e00b2723fb302ea56\transformed\emoji2-views-helper-1.3.0\res
+com.example.maps.app-constraintlayout-2.1.4-26 C:\Users\YOLANDA\.gradle\caches\transforms-4\89d98846dcd7a584acec585ef01e5582\transformed\constraintlayout-2.1.4\res
+com.example.maps.app-lifecycle-livedata-2.6.2-27 C:\Users\YOLANDA\.gradle\caches\transforms-4\8dfe6a55e7f8f084a48f8e711c052685\transformed\lifecycle-livedata-2.6.2\res
+com.example.maps.app-ui-tooling-release-28 C:\Users\YOLANDA\.gradle\caches\transforms-4\8e2c128e0a6719d488a916d6f0e7bf27\transformed\ui-tooling-release\res
+com.example.maps.app-ui-tooling-data-release-29 C:\Users\YOLANDA\.gradle\caches\transforms-4\9283318bdd7cde7dc2f0318de3dd40ae\transformed\ui-tooling-data-release\res
+com.example.maps.app-ui-graphics-release-30 C:\Users\YOLANDA\.gradle\caches\transforms-4\93643cfd689227fb41a47bf773bc67c0\transformed\ui-graphics-release\res
+com.example.maps.app-recyclerview-1.0.0-31 C:\Users\YOLANDA\.gradle\caches\transforms-4\95616b6c24d71041baf7b6a317e4c5f7\transformed\recyclerview-1.0.0\res
+com.example.maps.app-customview-poolingcontainer-1.0.0-32 C:\Users\YOLANDA\.gradle\caches\transforms-4\97a42a8b45ac01c62b447c4a1a0931e3\transformed\customview-poolingcontainer-1.0.0\res
+com.example.maps.app-appcompat-resources-1.7.0-33 C:\Users\YOLANDA\.gradle\caches\transforms-4\a441eb718aa1f15619a397358d4d3304\transformed\appcompat-resources-1.7.0\res
+com.example.maps.app-lifecycle-process-2.6.2-34 C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\res
+com.example.maps.app-ui-test-manifest-1.6.6-35 C:\Users\YOLANDA\.gradle\caches\transforms-4\af1c3811f0984f525e2ad5764f490bde\transformed\ui-test-manifest-1.6.6\res
+com.example.maps.app-ui-geometry-release-36 C:\Users\YOLANDA\.gradle\caches\transforms-4\b6bce12e414c67769e2a47136699991b\transformed\ui-geometry-release\res
+com.example.maps.app-material-release-37 C:\Users\YOLANDA\.gradle\caches\transforms-4\b7760b9f9168e5442ae0960609a5873c\transformed\material-release\res
+com.example.maps.app-foundation-layout-release-38 C:\Users\YOLANDA\.gradle\caches\transforms-4\b882ec64c3ad6c0699ea221343a3afed\transformed\foundation-layout-release\res
+com.example.maps.app-lifecycle-viewmodel-ktx-2.6.2-39 C:\Users\YOLANDA\.gradle\caches\transforms-4\b8b12fd78371eb848862f112400e12ac\transformed\lifecycle-viewmodel-ktx-2.6.2\res
+com.example.maps.app-annotation-experimental-1.4.0-40 C:\Users\YOLANDA\.gradle\caches\transforms-4\b9884f2a9047afb24c5d0b27c824d9fe\transformed\annotation-experimental-1.4.0\res
+com.example.maps.app-lifecycle-runtime-2.6.2-41 C:\Users\YOLANDA\.gradle\caches\transforms-4\bc768259b645b433cf84e8e777cb628e\transformed\lifecycle-runtime-2.6.2\res
+com.example.maps.app-lifecycle-viewmodel-2.6.2-42 C:\Users\YOLANDA\.gradle\caches\transforms-4\bed838fc56a08d53d076faa6ecaac2ee\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.maps.app-fragment-1.5.4-43 C:\Users\YOLANDA\.gradle\caches\transforms-4\c41ea182b5fa4971e33bcfb3715c5a2d\transformed\fragment-1.5.4\res
+com.example.maps.app-runtime-release-44 C:\Users\YOLANDA\.gradle\caches\transforms-4\c82ff0248dd747f890f399a4610c7e08\transformed\runtime-release\res
+com.example.maps.app-foundation-release-45 C:\Users\YOLANDA\.gradle\caches\transforms-4\d0694f94d3426a8026e273f395938bfe\transformed\foundation-release\res
+com.example.maps.app-core-runtime-2.2.0-46 C:\Users\YOLANDA\.gradle\caches\transforms-4\e55bed0ff01ecba7bca113ffcb6633a7\transformed\core-runtime-2.2.0\res
+com.example.maps.app-play-services-maps-18.1.0-47 C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\res
+com.example.maps.app-emoji2-1.3.0-48 C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\res
+com.example.maps.app-animation-release-49 C:\Users\YOLANDA\.gradle\caches\transforms-4\f2a1a622387efc882e9ef3c1841cfa0a\transformed\animation-release\res
+com.example.maps.app-ui-unit-release-50 C:\Users\YOLANDA\.gradle\caches\transforms-4\f2a8b342cd2b69e551e42654da3f47f7\transformed\ui-unit-release\res
+com.example.maps.app-activity-ktx-1.9.2-51 C:\Users\YOLANDA\.gradle\caches\transforms-4\f5128e53ff828c680f9d5994656e81b6\transformed\activity-ktx-1.9.2\res
+com.example.maps.app-core-1.13.1-52 C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\res
+com.example.maps.app-core-ktx-1.13.1-53 C:\Users\YOLANDA\.gradle\caches\transforms-4\ffe2819e4fd82a794708c6de3263248b\transformed\core-ktx-1.13.1\res
+com.example.maps.app-resValues-54 C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\build\generated\res\resValues\debug
+com.example.maps.app-packageDebugResources-55 C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.maps.app-packageDebugResources-56 C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.maps.app-debug-57 C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.maps.app-debug-58 C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\debug\res
+com.example.maps.app-main-59 C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\res

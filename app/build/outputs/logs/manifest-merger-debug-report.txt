@@ -1,0 +1,572 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:2:1-52:12
+MERGED from [androidx.databinding:viewbinding:8.6.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\bd127f982b74bbe79dc1b8001cab7613\transformed\viewbinding-8.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\YOLANDA\.gradle\caches\transforms-4\89d98846dcd7a584acec585ef01e5582\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\a441eb718aa1f15619a397358d4d3304\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\5fc2039ab4a6dd019954528a9236b4db\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\95616b6c24d71041baf7b6a317e4c5f7\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f4627d0e419853f635e99d2c19280eba\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\363204a7e4ff76092136e3e6a5fee3b8\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\b7760b9f9168e5442ae0960609a5873c\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\3c5cad65d96ecc9d9ce2bb8fc39f9a2c\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\19f06511b663a4b77e6d3aa08ffa86e4\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\d0694f94d3426a8026e273f395938bfe\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\f2a1a622387efc882e9ef3c1841cfa0a\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\b882ec64c3ad6c0699ea221343a3afed\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\712f2fc48d7208572b69cee119d0ec6a\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\9283318bdd7cde7dc2f0318de3dd40ae\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\f2a8b342cd2b69e551e42654da3f47f7\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\b6bce12e414c67769e2a47136699991b\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\17082a407beeb742be8ad86db9e5c61d\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\30c099aa66ce60d94c1c09aed431c738\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\7829845bd073f986f5860206f757e770\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\8e2c128e0a6719d488a916d6f0e7bf27\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\93643cfd689227fb41a47bf773bc67c0\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\7132419072659c8734bf5e8abd76a98d\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\af1c3811f0984f525e2ad5764f490bde\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\YOLANDA\.gradle\caches\transforms-4\c41ea182b5fa4971e33bcfb3715c5a2d\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\172298b812affe8aaf26ef77b7207e89\transformed\activity-1.9.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\f5128e53ff828c680f9d5994656e81b6\transformed\activity-ktx-1.9.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\57d2e4f85e1277f2b9d341a25e5a191e\transformed\activity-compose-1.9.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\4963e8e05b777864ac718921359737ee\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\c82ff0248dd747f890f399a4610c7e08\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7dffa33936efad0e0521ce9583dbebb8\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\814ce9efa9a2813e00b2723fb302ea56\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9d2096dac7f92c47fd45c919f23d45be\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\df3a186a1d4f520b5b066315ce2a3c32\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\17026cebded34f42d0ab9d2da111e1b5\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\8dfe6a55e7f8f084a48f8e711c052685\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\b8b12fd78371eb848862f112400e12ac\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\bed838fc56a08d53d076faa6ecaac2ee\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\454a5ab03589c6d458d43f89bd0f9aff\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\51dd0ae759e0388471c5ea209cbf8bda\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\bc768259b645b433cf84e8e777cb628e\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\2c9f0216ad13c63e9c8fca1c4f68c221\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\360a6245f1b3ecebea06026a64efa581\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0cab239bb5387e4dbab82f5f306a9485\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0c6ab03b2ee9f4a6eb63b9c28c4e54bc\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\f07a1856006d9e9b66f8f070b8f5c1ea\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\41217ab33aa3d4a81cfc63cc49a2ddfc\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\8f64ad3ace13ed1bb50e7448f662aa7f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\c445a8e40dfb27f3173995ffd4d38295\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\7f10c0259e1e30542df0d8df8421c63f\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\d9766951a4f9504e634d85b5c4ca8710\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\edc832a58dee27d6f1c7402cff380d17\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\d72713958770b246643e794c5c9d1b59\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\dfc33518f93a383cef9d3ebc23b141fb\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\4c6931a62d505186d7246a384f771191\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\97a42a8b45ac01c62b447c4a1a0931e3\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\ffe2819e4fd82a794708c6de3263248b\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\b9884f2a9047afb24c5d0b27c824d9fe\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\6ab687ce3c5354bab979695e35c68193\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\38d713ea5bda6127d57b5477a7324729\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:15:1-35:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\3b3439678a0d8e718c4b55b1fa7640a6\transformed\transport-api-3.1.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0a5ea531a2b18c42be26c5d53bd56318\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\aa8756fa8b477807e4dad6660e5f31dd\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\6db823765dfecac5a19737fabe8d84c7\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7cd1547642a64556c9ce6c51315e0dab\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eac19c3fb8770c31dd33f31764591014\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e55bed0ff01ecba7bca113ffcb6633a7\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\088c6e3ead5e5b731fecfe61d181b833\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e363e0a2af816116058dee9a03cf26e7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e3de57ba2ec1a57238fac904bc31f8cf\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\YOLANDA\.gradle\caches\transforms-4\2642db1b2738d35ed2c86649c0237ebc\transformed\android-maps-utils-2.2.5\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7e5ddfa35b83aa46839fd6c31e32807e\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:5:5-6:66
+MERGED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:6:9-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:7:5-8:68
+MERGED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:9:5-81
+MERGED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:8:9-65
+application
+ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:9:5-51:19
+INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:9:5-51:19
+MERGED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:14:5-22:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\YOLANDA\.gradle\caches\transforms-4\89d98846dcd7a584acec585ef01e5582\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\YOLANDA\.gradle\caches\transforms-4\89d98846dcd7a584acec585ef01e5582\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f4627d0e419853f635e99d2c19280eba\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f4627d0e419853f635e99d2c19280eba\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\8e2c128e0a6719d488a916d6f0e7bf27\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\8e2c128e0a6719d488a916d6f0e7bf27\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\af1c3811f0984f525e2ad5764f490bde\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\af1c3811f0984f525e2ad5764f490bde\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0cab239bb5387e4dbab82f5f306a9485\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0cab239bb5387e4dbab82f5f306a9485\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0c6ab03b2ee9f4a6eb63b9c28c4e54bc\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0c6ab03b2ee9f4a6eb63b9c28c4e54bc\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\6ab687ce3c5354bab979695e35c68193\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\6ab687ce3c5354bab979695e35c68193\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:23:5-37:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:23:5-37:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7cd1547642a64556c9ce6c51315e0dab\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7cd1547642a64556c9ce6c51315e0dab\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\YOLANDA\.gradle\caches\transforms-4\2642db1b2738d35ed2c86649c0237ebc\transformed\android-maps-utils-2.2.5\AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\YOLANDA\.gradle\caches\transforms-4\2642db1b2738d35ed2c86649c0237ebc\transformed\android-maps-utils-2.2.5\AndroidManifest.xml:9:5-13:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:14:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:12:9-54
+	android:roundIcon
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:15:9-54
+	tools:targetApi
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:18:9-29
+	android:icon
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:17:9-42
+	android:dataExtractionRules
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:11:9-65
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:32:9-34:71
+	android:value
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:34:13-68
+	android:name
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:33:13-58
+activity#com.example.maps.MapsActivity
+ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:36:9-40:48
+	android:label
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:39:13-56
+	android:exported
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:38:13-37
+	android:theme
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:40:13-46
+	android:name
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:37:13-41
+activity#com.example.maps.MainActivity
+ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:42:9-50:20
+	android:exported
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:44:13-36
+	android:theme
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:45:13-46
+	android:name
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:43:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:46:13-49:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml:48:27-74
+uses-sdk
+INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.6.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\bd127f982b74bbe79dc1b8001cab7613\transformed\viewbinding-8.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.6.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\bd127f982b74bbe79dc1b8001cab7613\transformed\viewbinding-8.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:7:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\YOLANDA\.gradle\caches\transforms-4\89d98846dcd7a584acec585ef01e5582\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\YOLANDA\.gradle\caches\transforms-4\89d98846dcd7a584acec585ef01e5582\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\a441eb718aa1f15619a397358d4d3304\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\a441eb718aa1f15619a397358d4d3304\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\5fc2039ab4a6dd019954528a9236b4db\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\5fc2039ab4a6dd019954528a9236b4db\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\95616b6c24d71041baf7b6a317e4c5f7\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\95616b6c24d71041baf7b6a317e4c5f7\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f4627d0e419853f635e99d2c19280eba\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f4627d0e419853f635e99d2c19280eba\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\363204a7e4ff76092136e3e6a5fee3b8\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\363204a7e4ff76092136e3e6a5fee3b8\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\b7760b9f9168e5442ae0960609a5873c\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\b7760b9f9168e5442ae0960609a5873c\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\3c5cad65d96ecc9d9ce2bb8fc39f9a2c\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\3c5cad65d96ecc9d9ce2bb8fc39f9a2c\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\19f06511b663a4b77e6d3aa08ffa86e4\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\19f06511b663a4b77e6d3aa08ffa86e4\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\d0694f94d3426a8026e273f395938bfe\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\d0694f94d3426a8026e273f395938bfe\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\f2a1a622387efc882e9ef3c1841cfa0a\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\f2a1a622387efc882e9ef3c1841cfa0a\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\b882ec64c3ad6c0699ea221343a3afed\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\b882ec64c3ad6c0699ea221343a3afed\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\712f2fc48d7208572b69cee119d0ec6a\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\712f2fc48d7208572b69cee119d0ec6a\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\9283318bdd7cde7dc2f0318de3dd40ae\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\9283318bdd7cde7dc2f0318de3dd40ae\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\f2a8b342cd2b69e551e42654da3f47f7\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\f2a8b342cd2b69e551e42654da3f47f7\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\b6bce12e414c67769e2a47136699991b\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\b6bce12e414c67769e2a47136699991b\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\17082a407beeb742be8ad86db9e5c61d\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\17082a407beeb742be8ad86db9e5c61d\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\30c099aa66ce60d94c1c09aed431c738\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\30c099aa66ce60d94c1c09aed431c738\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\7829845bd073f986f5860206f757e770\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\7829845bd073f986f5860206f757e770\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\8e2c128e0a6719d488a916d6f0e7bf27\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\8e2c128e0a6719d488a916d6f0e7bf27\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\93643cfd689227fb41a47bf773bc67c0\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\93643cfd689227fb41a47bf773bc67c0\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\7132419072659c8734bf5e8abd76a98d\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\7132419072659c8734bf5e8abd76a98d\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\af1c3811f0984f525e2ad5764f490bde\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\af1c3811f0984f525e2ad5764f490bde\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\YOLANDA\.gradle\caches\transforms-4\c41ea182b5fa4971e33bcfb3715c5a2d\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\YOLANDA\.gradle\caches\transforms-4\c41ea182b5fa4971e33bcfb3715c5a2d\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\172298b812affe8aaf26ef77b7207e89\transformed\activity-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\172298b812affe8aaf26ef77b7207e89\transformed\activity-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\f5128e53ff828c680f9d5994656e81b6\transformed\activity-ktx-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\f5128e53ff828c680f9d5994656e81b6\transformed\activity-ktx-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\57d2e4f85e1277f2b9d341a25e5a191e\transformed\activity-compose-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\57d2e4f85e1277f2b9d341a25e5a191e\transformed\activity-compose-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\4963e8e05b777864ac718921359737ee\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\4963e8e05b777864ac718921359737ee\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\c82ff0248dd747f890f399a4610c7e08\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\c82ff0248dd747f890f399a4610c7e08\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7dffa33936efad0e0521ce9583dbebb8\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7dffa33936efad0e0521ce9583dbebb8\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\814ce9efa9a2813e00b2723fb302ea56\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\814ce9efa9a2813e00b2723fb302ea56\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9d2096dac7f92c47fd45c919f23d45be\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9d2096dac7f92c47fd45c919f23d45be\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\df3a186a1d4f520b5b066315ce2a3c32\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\df3a186a1d4f520b5b066315ce2a3c32\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\17026cebded34f42d0ab9d2da111e1b5\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\17026cebded34f42d0ab9d2da111e1b5\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\8dfe6a55e7f8f084a48f8e711c052685\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\8dfe6a55e7f8f084a48f8e711c052685\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\b8b12fd78371eb848862f112400e12ac\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\b8b12fd78371eb848862f112400e12ac\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\bed838fc56a08d53d076faa6ecaac2ee\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\bed838fc56a08d53d076faa6ecaac2ee\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\454a5ab03589c6d458d43f89bd0f9aff\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\454a5ab03589c6d458d43f89bd0f9aff\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\51dd0ae759e0388471c5ea209cbf8bda\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\51dd0ae759e0388471c5ea209cbf8bda\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\bc768259b645b433cf84e8e777cb628e\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\bc768259b645b433cf84e8e777cb628e\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\2c9f0216ad13c63e9c8fca1c4f68c221\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\2c9f0216ad13c63e9c8fca1c4f68c221\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\360a6245f1b3ecebea06026a64efa581\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\360a6245f1b3ecebea06026a64efa581\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0cab239bb5387e4dbab82f5f306a9485\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0cab239bb5387e4dbab82f5f306a9485\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0c6ab03b2ee9f4a6eb63b9c28c4e54bc\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0c6ab03b2ee9f4a6eb63b9c28c4e54bc\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\f07a1856006d9e9b66f8f070b8f5c1ea\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\f07a1856006d9e9b66f8f070b8f5c1ea\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\41217ab33aa3d4a81cfc63cc49a2ddfc\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\41217ab33aa3d4a81cfc63cc49a2ddfc\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\8f64ad3ace13ed1bb50e7448f662aa7f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\8f64ad3ace13ed1bb50e7448f662aa7f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\c445a8e40dfb27f3173995ffd4d38295\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\c445a8e40dfb27f3173995ffd4d38295\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\7f10c0259e1e30542df0d8df8421c63f\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\7f10c0259e1e30542df0d8df8421c63f\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\d9766951a4f9504e634d85b5c4ca8710\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\d9766951a4f9504e634d85b5c4ca8710\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\edc832a58dee27d6f1c7402cff380d17\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\edc832a58dee27d6f1c7402cff380d17\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\d72713958770b246643e794c5c9d1b59\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\d72713958770b246643e794c5c9d1b59\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\dfc33518f93a383cef9d3ebc23b141fb\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\dfc33518f93a383cef9d3ebc23b141fb\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\4c6931a62d505186d7246a384f771191\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\4c6931a62d505186d7246a384f771191\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\97a42a8b45ac01c62b447c4a1a0931e3\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\97a42a8b45ac01c62b447c4a1a0931e3\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\ffe2819e4fd82a794708c6de3263248b\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\ffe2819e4fd82a794708c6de3263248b\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\b9884f2a9047afb24c5d0b27c824d9fe\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\b9884f2a9047afb24c5d0b27c824d9fe\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\6ab687ce3c5354bab979695e35c68193\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\6ab687ce3c5354bab979695e35c68193\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\38d713ea5bda6127d57b5477a7324729\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\38d713ea5bda6127d57b5477a7324729\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\3b3439678a0d8e718c4b55b1fa7640a6\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\3b3439678a0d8e718c4b55b1fa7640a6\transformed\transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0a5ea531a2b18c42be26c5d53bd56318\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0a5ea531a2b18c42be26c5d53bd56318\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\aa8756fa8b477807e4dad6660e5f31dd\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\aa8756fa8b477807e4dad6660e5f31dd\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\6db823765dfecac5a19737fabe8d84c7\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\6db823765dfecac5a19737fabe8d84c7\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7cd1547642a64556c9ce6c51315e0dab\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7cd1547642a64556c9ce6c51315e0dab\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eac19c3fb8770c31dd33f31764591014\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eac19c3fb8770c31dd33f31764591014\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e55bed0ff01ecba7bca113ffcb6633a7\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e55bed0ff01ecba7bca113ffcb6633a7\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\088c6e3ead5e5b731fecfe61d181b833\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\088c6e3ead5e5b731fecfe61d181b833\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e363e0a2af816116058dee9a03cf26e7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e363e0a2af816116058dee9a03cf26e7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e3de57ba2ec1a57238fac904bc31f8cf\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e3de57ba2ec1a57238fac904bc31f8cf\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\YOLANDA\.gradle\caches\transforms-4\2642db1b2738d35ed2c86649c0237ebc\transformed\android-maps-utils-2.2.5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\YOLANDA\.gradle\caches\transforms-4\2642db1b2738d35ed2c86649c0237ebc\transformed\android-maps-utils-2.2.5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7e5ddfa35b83aa46839fd6c31e32807e\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7e5ddfa35b83aa46839fd6c31e32807e\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\YOLANDA\Documents\Proyectos GitHub\MAPS3\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:11:22-73
+activity#com.google.android.libraries.places.widget.AutocompleteActivity
+ADDED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:15:9-21:20
+	android:label
+		ADDED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:18:13-62
+	android:windowSoftInputMode
+		ADDED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:20:13-55
+	android:exported
+		ADDED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:17:13-37
+	android:theme
+		ADDED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:19:13-61
+	android:name
+		ADDED from [com.google.android.libraries.places:places:4.0.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\480d8556ccea29e8bb2ea409e87593f5\transformed\places-4.0.0\AndroidManifest.xml:16:13-91
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\e6839a58c88773f493a5ce65a11f43d8\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\1da42b438a197ef331bff5506410688c\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\8e2c128e0a6719d488a916d6f0e7bf27\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\8e2c128e0a6719d488a916d6f0e7bf27\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\8e2c128e0a6719d488a916d6f0e7bf27\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\af1c3811f0984f525e2ad5764f490bde\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\af1c3811f0984f525e2ad5764f490bde\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\YOLANDA\.gradle\caches\transforms-4\af1c3811f0984f525e2ad5764f490bde\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:24:13-63
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7cd1547642a64556c9ce6c51315e0dab\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\7cd1547642a64556c9ce6c51315e0dab\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\eb755523adf63dc267565a2183a1340f\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\YOLANDA\.gradle\caches\transforms-4\aaa881722e888a970bc36ba0623d0eb0\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0c6ab03b2ee9f4a6eb63b9c28c4e54bc\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+MERGED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\YOLANDA\.gradle\caches\transforms-4\2642db1b2738d35ed2c86649c0237ebc\transformed\android-maps-utils-2.2.5\AndroidManifest.xml:10:9-12:69
+MERGED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\YOLANDA\.gradle\caches\transforms-4\2642db1b2738d35ed2c86649c0237ebc\transformed\android-maps-utils-2.2.5\AndroidManifest.xml:10:9-12:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0c6ab03b2ee9f4a6eb63b9c28c4e54bc\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\0c6ab03b2ee9f4a6eb63b9c28c4e54bc\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.example.maps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.example.maps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\f9162a2c91e1deda298aea6a15ded6a9\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:34:9-36:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:27:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:29:13-31:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:31:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\9dab8b140588e931503e08e79ca09dca\transformed\transport-backend-cct-3.2.0\AndroidManifest.xml:30:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:24:9-28:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:26:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:27:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:25:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.2.0] C:\Users\YOLANDA\.gradle\caches\transforms-4\da259fde996a53a3663fb1dd7de2b294\transformed\transport-runtime-3.2.0\AndroidManifest.xml:31:13-132
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\YOLANDA\.gradle\caches\transforms-4\5bbd21257ee10136f200b9df72a9124b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
